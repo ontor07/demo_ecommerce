@@ -19,7 +19,20 @@ use App\Http\Controllers\frontedControllers;
 //     return view('welcome');
 // });
 
-Route::get('/',[frontedControllers::class, 'home']);
+
+ 
+Route::controller(frontedControllers::class)->group(function () {
+    Route::get('/', 'home');
+    Route::get('/about', 'about_us');
+    Route::get('/blog', 'blog');
+    Route::get('/blog_details', 'blog_details');
+    Route::get('/brands', 'brands');
+    Route::get('/cart_empty', 'cart_empty');
+    Route::get('/cart_view', 'cart_view');
+    Route::get('/change_password', 'change_password');
+});
+
+// Route::get('/about',[frontedControllers::class, 'about_us']);
 
 
 Route::get('/dashboard', function () {
@@ -32,4 +45,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+
 require __DIR__.'/auth.php';
+
+Route::fallback(function () {
+   return view('fronted.404');
+});
