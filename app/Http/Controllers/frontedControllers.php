@@ -10,4 +10,32 @@ class frontedControllers extends Controller
     {
         return view ('fronted.index');
     }
+    public function about_us()
+    {
+        return view ('fronted.about_us');
+    }
+    public function blog()
+    {
+        return view ('fronted.blog');
+    }
+    public function blog_details()
+    {
+        return view ('fronted.blog_details');
+    }
+    public function brands()
+    {
+        return view ('fronted.brands');
+    }
+    public function cart_empty()
+    {
+        return view ('fronted.cart_empty');
+    }
+    public function cart_view()
+    {
+        return view ('fronted.cart_view');
+    }
+    public function change_password()
+    {
+        return view ('fronted.change_password');
+    }
 }

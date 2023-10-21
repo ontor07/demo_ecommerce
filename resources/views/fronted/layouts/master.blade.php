@@ -5,27 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <title>Sazao || e-Commerce HTML Template</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/select2.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/jquery.nice-number.min.css">
-    <link rel="stylesheet" href="css/jquery.calendar.css">
-    <link rel="stylesheet" href="css/add_row_custon.css">
-    <link rel="stylesheet" href="css/mobile_menu.css">
-    <link rel="stylesheet" href="css/jquery.exzoom.css">
-    <link rel="stylesheet" href="css/multiple-image-video.css">
-    <link rel="stylesheet" href="css/ranger_style.css">
-    <link rel="stylesheet" href="css/jquery.classycountdown.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- <link rel="stylesheet" href="css/rtl.css"> -->
+    @include('fronted.layouts.head')
 </head>
 
 <body>
@@ -43,7 +23,7 @@
                 </div>
                 <div class="col-xl-2 col-7 col-md-8 col-lg-2">
                     <div class="wsus_logo_area">
-                        <a class="wsus__header_logo" href="index.html">
+                        <a class="wsus__header_logo" href="/">
                             <img src="images/logo_2.png" alt="logo" class="img-fluid w-100">
                         </a>
                     </div>
@@ -67,7 +47,11 @@
                                 <p>+569875544220</p>
                             </div>
                         </div>
-                        <ul class="wsus__icon_area">
+                        <ul class="wsus__icon_area ms-lg-5">
+                            <li class="">
+                                <a href="" class="me-4 mt-3 d-flex ">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1200px-Flag_of_Bangladesh.svg.png" alt=""  class="rounded-pill" height="20px" width="" ><b style="font-size: 15px; margin-top:-10px; margin-left:5px" class="">বাংলা</b></a>
+                            </li>
                             <li><a href="wishlist.html"><i class="fal fa-heart"></i><span>05</span></a></li>
                             <li><a href="compare.html"><i class="fal fa-random"></i><span>03</span></a></li>
                             <li><a class="wsus__cart_icon" href="#"><i
@@ -362,7 +346,7 @@
                         </ul>
 
                         <ul class="wsus__menu_item">
-                            <li><a class="active" href="index.html">home</a></li>
+                            <li><a class="active" href="/">home</a></li>
                             <li><a href="product_grid_view.html">shop <i class="fas fa-caret-down"></i></a>
                                 <div class="wsus__mega_menu">
                                     <div class="row">
@@ -430,14 +414,14 @@
                                 </div>
                             </li>
                             <li><a href="vendor.html">vendor</a></li>
-                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="{{ url('blog') }}">blog</a></li>
                             <li><a href="daily_deals.html">campain</a></li>
                             <li class="wsus__relative_li"><a href="#">pages <i class="fas fa-caret-down"></i></a>
                                 <ul class="wsus__menu_droapdown">
                                     <li><a href="404.html">404</a></li>
                                     <li><a href="faqs.html">faq</a></li>
                                     <li><a href="invoice.html">invoice</a></li>
-                                    <li><a href="about_us.html">about</a></li>
+                                    <li><a href="{{ url('about') }}">about</a></li>
                                     <li><a href="product_grid_view.html">product</a></li>
                                     <li><a href="check_out.html">check out</a></li>
                                     <li><a href="team.html">team</a></li>
@@ -446,7 +430,7 @@
                                     <li><a href="forget_password.html">forget password</a></li>
                                     <li><a href="privacy_policy.html">privacy policy</a></li>
                                     <li><a href="product_category.html">product category</a></li>
-                                    <li><a href="brands.html">brands</a></li>
+                                    <li><a href="{{ url('/brands') }}">brands</a></li>
                                 </ul>
                             </li>
                             <li><a href="track_order.html">track order</a></li>
@@ -577,7 +561,7 @@
                 <div class="wsus__mobile_menu_main_menu">
                     <div class="accordion accordion-flush" id="accordionFlushExample2">
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="/">home</a></li>
                             <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">shop</a>
@@ -606,7 +590,7 @@
                                             <li><a href="404.html">404</a></li>
                                             <li><a href="faqs.html">faq</a></li>
                                             <li><a href="invoice.html">invoice</a></li>
-                                            <li><a href="about_us.html">about</a></li>
+                                            <li><a href="{{ url('about') }}">about</a></li>
                                             <li><a href="team.html">team</a></li>
                                             <li><a href="product_grid_view.html">product grid view</a></li>
                                             <li><a href="product_grid_view.html">product list view</a></li>
@@ -661,7 +645,7 @@
                     <div class="wsus__footer_content">
                         <h5>Company</h5>
                         <ul class="wsus__footer_menu">
-                            <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
+                            <li><a href="{{ url('about') }}"><i class="fas fa-caret-right"></i> About Us</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Team Member</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Career</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Contact Us</a></li>
@@ -730,43 +714,7 @@
     ==============================-->
 
 
-    <!--jquery library js-->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <!--bootstrap js-->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!--font-awesome js-->
-    <script src="js/Font-Awesome.js"></script>
-    <!--select2 js-->
-    <script src="js/select2.min.js"></script>
-    <!--slick slider js-->
-    <script src="js/slick.min.js"></script>
-    <!--simplyCountdown js-->
-    <script src="js/simplyCountdown.js"></script>
-    <!--product zoomer js-->
-    <script src="js/jquery.exzoom.js"></script>
-    <!--nice-number js-->
-    <script src="js/jquery.nice-number.min.js"></script>
-    <!--counter js-->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.countup.min.js"></script>
-    <!--add row js-->
-    <script src="js/add_row_custon.js"></script>
-    <!--multiple-image-video js-->
-    <script src="js/multiple-image-video.js"></script>
-    <!--sticky sidebar js-->
-    <script src="js/sticky_sidebar.js"></script>
-    <!--price ranger js-->
-    <script src="js/ranger_jquery-ui.min.js"></script>
-    <script src="js/ranger_slider.js"></script>
-    <!--isotope js-->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!--venobox js-->
-    <script src="js/venobox.min.js"></script>
-    <!--classycountdown js-->
-    <script src="js/jquery.classycountdown.js"></script>
-
-    <!--main/custom js-->
-    <script src="js/main.js"></script>
+   @include('fronted.layouts.js')
 </body>
 
 </html>
