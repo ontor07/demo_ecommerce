@@ -31,7 +31,7 @@
                 <div class="col-xl-5 col-md-6 col-lg-4 d-none d-lg-block">
                     <div class="wsus__search">
                         <form>
-                            <input type="text" placeholder="Search...">
+                            <input type="text" placeholder="@lang('common.search')...">
                             <button type="submit"><i class="far fa-search"></i></button>
                         </form>
                     </div>
@@ -48,9 +48,14 @@
                             </div>
                         </div>
                         <ul class="wsus__icon_area ms-lg-5">
-                            <li class="">
-                                <a href="" class="me-4 mt-3 d-flex ">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1200px-Flag_of_Bangladesh.svg.png" alt=""  class="rounded-pill" height="20px" width="" ><b style="font-size: 15px; margin-top:-10px; margin-left:5px" class="">বাংলা</b></a>
+                            <li class="lang">
+                                <form method="post" action="{{url('change_lang')}}">
+                                    @csrf
+                                    <select class="form-control" name="lang" onchange="this.form.submit()">
+                                        <option {{ session()->get('locale') == 'en' ? 'selected' : '' }} value="en">@lang('common.english')</option>
+                                        <option {{ session()->get('locale') == 'bn' ? 'selected' : '' }} value="bn">@lang('common.bangla')</option>
+                                    </select>
+                                </form>
                             </li>
                             <li><a href="wishlist.html"><i class="fal fa-heart"></i><span>05</span></a></li>
                             <li><a href="compare.html"><i class="fal fa-random"></i><span>03</span></a></li>
@@ -346,7 +351,7 @@
                         </ul>
 
                         <ul class="wsus__menu_item">
-                            <li><a class="active" href="/">home</a></li>
+                            <li><a class="active" href="/">@lang('common.home')</a></li>
                             <li><a href="product_grid_view.html">shop <i class="fas fa-caret-down"></i></a>
                                 <div class="wsus__mega_menu">
                                     <div class="row">

@@ -5462,6 +5462,10 @@
     width: 100%;
   }
 
+  li.lang {
+    margin-left: -119px !important;
+  }
+
   /* extra css start here */
 
 }

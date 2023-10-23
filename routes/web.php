@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontedControllers;
+use App\Http\Controllers\BackendController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,7 @@ Route::controller(frontedControllers::class)->group(function () {
 
 // Route::get('/about',[frontedControllers::class, 'about_us']);
 
+Route::post('/change_lang',[BackendController::class,'change_lang']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
