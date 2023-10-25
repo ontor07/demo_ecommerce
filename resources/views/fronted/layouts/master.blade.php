@@ -352,7 +352,7 @@
 
                         <ul class="wsus__menu_item">
                             <li><a class="active" href="/">@lang('common.home')</a></li>
-                            <li><a href="product_grid_view.html">shop <i class="fas fa-caret-down"></i></a>
+                            <li><a href="product_grid_view.html">@lang('common.shop') <i class="fas fa-caret-down"></i></a>
                                 <div class="wsus__mega_menu">
                                     <div class="row">
                                         <div class="col-xl-3 col-lg-3">
@@ -418,10 +418,10 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="vendor.html">vendor</a></li>
-                            <li><a href="{{ url('blog') }}">blog</a></li>
-                            <li><a href="daily_deals.html">campain</a></li>
-                            <li class="wsus__relative_li"><a href="#">pages <i class="fas fa-caret-down"></i></a>
+                            <li><a href="vendor.html">@lang('common.vendor')</a></li>
+                            <li><a href="{{ url('blog') }}">@lang('common.blog')</a></li>
+                            <li><a href="daily_deals.html">@lang('common.campain')</a></li>
+                            <li class="wsus__relative_li"><a href="#">@lang('common.pages') <i class="fas fa-caret-down"></i></a>
                                 <ul class="wsus__menu_droapdown">
                                     <li><a href="404.html">404</a></li>
                                     <li><a href="faqs.html">faq</a></li>
@@ -438,13 +438,12 @@
                                     <li><a href="{{ url('/brands') }}">brands</a></li>
                                 </ul>
                             </li>
-                            <li><a href="track_order.html">track order</a></li>
-                            <li><a href="daily_deals.html">daily deals</a></li>
+                            <li><a href="track_order.html">@lang('common.track_order')</a></li>
+                            <li><a href="daily_deals.html">@lang('common.daily_deals')</a></li>
                         </ul>
                         <ul class="wsus__menu_item wsus__menu_item_right">
-                            <li><a href="contact.html">contact</a></li>
-                            <li><a href="dsahboard.html">my account</a></li>
-                            <li><a href="login.html">login</a></li>
+                            <li><a href="contact.html">@lang('common.contact')</a></li>
+                            <li><a href="login.html">@lang('common.login')</a></li>
                         </ul>
                     </div>
                 </div>
