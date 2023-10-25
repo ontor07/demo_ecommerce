@@ -8,10 +8,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h4>About us</h4>
+                        <h4>@lang('common.about')</h4>
                         <ul>
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="#">@lang('common.home')</a></li>
+                            <li><a href="#">@lang('common.about')</a></li>
                         </ul>
                     </div>
                 </div>
