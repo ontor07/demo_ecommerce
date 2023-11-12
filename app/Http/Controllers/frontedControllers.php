@@ -38,4 +38,24 @@ class frontedControllers extends Controller
     {
         return view ('fronted.change_password');
     }
+    public function check_out()
+    {
+        return view ('fronted.check_out');
+    }
+    public function compare()
+    {
+        return view ('fronted.compare');
+    }
+    public function contact()
+    {
+        return view ('fronted.contact');
+    }
+    public function invoice()
+    {
+        return view ('fronted.invoice');
+    }
+    public function login()
+    {
+        return view ('fronted.login');
+    }
 }

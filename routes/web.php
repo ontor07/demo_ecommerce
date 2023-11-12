@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontedControllers;
 use App\Http\Controllers\BackendController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,11 +32,18 @@ Route::controller(frontedControllers::class)->group(function () {
     Route::get('/cart_empty', 'cart_empty');
     Route::get('/cart_view', 'cart_view');
     Route::get('/change_password', 'change_password');
+    Route::get('/check_out', 'check_out');
+    Route::get('/compare', 'compare');
+    Route::get('/contact', 'contact'); 
+    Route::get('/invoice', 'invoice'); 
+    Route::get('/xlogin', 'login'); 
 });
 
 // Route::get('/about',[frontedControllers::class, 'about_us']);
 
 Route::post('/change_lang',[BackendController::class,'change_lang']);
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -49,7 +57,13 @@ Route::middleware('auth')->group(function () {
 
 
 require __DIR__.'/auth.php';
+ 
+
+
+Route::get('vendor/dashboard',[VendorController::class, 'dashboard'])->middleware(['auth','role:vendor'])->name('vendor.dashboard');
 
 Route::fallback(function () {
    return view('fronted.404');
 });
+
+
