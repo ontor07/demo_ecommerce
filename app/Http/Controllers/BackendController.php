@@ -15,4 +15,8 @@ class BackendController extends Controller
 
         return redirect()->back();
     }
+    public function login (Request $request)
+    {
+        return view('admin.auth.login');
+    }
 }
