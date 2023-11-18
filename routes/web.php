@@ -66,4 +66,5 @@ Route::fallback(function () {
    return view('fronted.404');
 });
 
+Route::get('admin/login',[BackendController::class,'login'])->name('admin.login');
 
