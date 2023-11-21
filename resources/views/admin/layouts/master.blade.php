@@ -92,5 +92,15 @@
             @endforeach
           @endif
   </script>
+
+<script>
+  imageFile.onchange = evt => {
+      const [file] = imageFile.files
+      if (file) {
+          blah.src = URL.createObjectURL(file)
+      }
+      }
+</script>
+
 </body>
 </html>

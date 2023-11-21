@@ -19,3 +19,6 @@
     <link rel="stylesheet" href="{{ asset('') }}css/style.css">
     <link rel="stylesheet" href="{{ asset('') }}css/responsive.css">
     <!-- <link rel="stylesheet" href="{{ asset('') }}css/rtl.css"> -->
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">

@@ -36,7 +36,7 @@ Route::controller(frontedControllers::class)->group(function () {
     Route::get('/compare', 'compare');
     Route::get('/contact', 'contact'); 
     Route::get('/invoice', 'invoice'); 
-    Route::get('/xlogin', 'login'); 
+   
 });
 
 // Route::get('/about',[frontedControllers::class, 'about_us']);

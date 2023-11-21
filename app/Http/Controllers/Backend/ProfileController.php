@@ -15,13 +15,31 @@ class ProfileController extends Controller
     public function profileUpdate(Request $request)
     {
         // dd($request->all());
-    
+        $user = Auth::user();
+
+        if($request->hasFile('image')){
+
+            $path = public_path().'/backend/assets/uploads/'.$user->image;
+                    if(file_exists($path))
+                    {
+                        unlink($path);
+                    }
+         
+            $image= $request->image;
+            $imageName = rand().'.'.$image->getClientOriginalExtension();
+            $image->move(public_path().'/backend/assets/uploads',$imageName);
+
+            $path = $imageName;
+
+            $user->image = $path;
+        }
+
         $request->validate([
             'name'=> ['required','max:100'],
             'email'=> ['required', 'email', 'unique:users,email,'.Auth::user()->id],
         ]);
 
-        $user = Auth::user();
+       
         $user->name = $request->name;
         $user->email = $request->email;
         $user->save();
