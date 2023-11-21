@@ -443,7 +443,7 @@
                         </ul>
                         <ul class="wsus__menu_item wsus__menu_item_right">
                             <li><a href="contact.html">@lang('common.contact')</a></li>
-                            <li><a href="login.html">@lang('common.login')</a></li>
+                            <li><a href="{{ route('login') }}">@lang('common.login')</a></li>
                         </ul>
                     </div>
                 </div>

@@ -35,3 +35,14 @@
 
  <!--main/custom js-->
  <script src="{{ asset('') }}js/main.js"></script>
+
+ <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+ <script>
+    @if ($errors->any())
+           @foreach ($errors->all() as $error )
+           toastr.error("{{ $error }}")
+           
+           @endforeach
+         @endif
+ </script>

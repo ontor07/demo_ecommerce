@@ -13,7 +13,7 @@
       <div class="row mt-sm-4">
         <div class="col-12 col-md-12 col-lg-12">
           <div class="card">
-            <form method="post" class="needs-validation" novalidate="" action="{{ route('admin.profile.update') }}">
+            <form method="post" class="needs-validation" novalidate="" action="{{ route('admin.profile.update') }}" enctype="multipart/form-data">
                 @csrf
               <div class="card-header">
                 <h4>Edit Profile</h4>
@@ -30,12 +30,14 @@
                       <input type="text" class="form-control" name="email" value="{{ Auth::user()->email }}">
                      
                     </div>
-                    <div class="form-group col-md-12 col-12">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="customFile">
-                        <label class="custom-file-label" for="customFile">Choose file</label>
+                    <div class="form-group col-md-12 col-12 ">
+                      <div class="">
+                        <input type="file" class="custom-file-input" id="imageFile" name="image">
+                        <label class="custom-file-label" for="image">Choose file</label>
                       </div>
-                     
+                     <div class="mt-2">
+                      <img src="{{ asset("/backend/assets/uploads") }}/{{ Auth::user()->image }}" id="blah" alt="" width="100px">
+                     </div>
                     </div>
                   </div>
                
