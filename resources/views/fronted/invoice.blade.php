@@ -87,7 +87,7 @@
                                 </tr>
                                 <tr>
                                     <td class="images">
-                                        <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                        <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                                     </td>
 
                                     <td class="name">
@@ -108,7 +108,7 @@
                                 </tr>
                                 <tr>
                                     <td class="images">
-                                        <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                        <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                                     </td>
 
                                     <td class="name">

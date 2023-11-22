@@ -51,22 +51,22 @@
                                     <div class="row modal_slider">
                                         <div class="col-xl-12">
                                             <div class="modal_slider_img">
-                                                <img src="images/zoom1.jpg" alt="product" class="img-fluid w-100">
+                                                <img src="{{ asset('') }}fronted/images/zoom1.jpg" alt="product" class="img-fluid w-100">
                                             </div>
                                         </div>
                                         <div class="col-xl-12">
                                             <div class="modal_slider_img">
-                                                <img src="images/zoom2.jpg" alt="product" class="img-fluid w-100">
+                                                <img src="{{ asset('') }}fronted/images/zoom2.jpg" alt="product" class="img-fluid w-100">
                                             </div>
                                         </div>
                                         <div class="col-xl-12">
                                             <div class="modal_slider_img">
-                                                <img src="images/zoom3.jpg" alt="product" class="img-fluid w-100">
+                                                <img src="{{ asset('') }}fronted/images/zoom3.jpg" alt="product" class="img-fluid w-100">
                                             </div>
                                         </div>
                                         <div class="col-xl-12">
                                             <div class="modal_slider_img">
-                                                <img src="images/zoom4.jpg" alt="product" class="img-fluid w-100">
+                                                <img src="{{ asset('') }}fronted/images/zoom4.jpg" alt="product" class="img-fluid w-100">
                                             </div>
                                         </div>
                                     </div>
@@ -181,7 +181,7 @@
                     <div class="wsus__banner_content">
                         <div class="row banner_slider">
                             <div class="col-xl-12">
-                                <div class="wsus__single_slider" style="background: url(images/slider_1.jpg);">
+                                <div class="wsus__single_slider" style="background: url({{ asset('') }}fronted/images/slider_1.jpg);">
                                     <div class="wsus__single_slider_text">
                                         <h3>new arrivals</h3>
                                         <h1>men's fashion</h1>
@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-12">
-                                <div class="wsus__single_slider" style="background: url(images/slider_2.jpg);">
+                                <div class="wsus__single_slider" style="background: url({{ asset('') }}fronted/images/slider_2.jpg);">
                                     <div class="wsus__single_slider_text">
                                         <h3>new arrivals</h3>
                                         <h1>kid's fashion</h1>
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-12">
-                                <div class="wsus__single_slider" style="background: url(images/slider_3.jpg);">
+                                <div class="wsus__single_slider" style="background: url({{ asset('') }}fronted/images/slider_3.jpg);">
                                     <div class="wsus__single_slider_text">
                                         <h3>new arrivals</h3>
                                         <h1>winter collection</h1>
@@ -228,7 +228,7 @@
         <div class=" container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="offer_time" style="background: url(images/flash_sell_bg.jpg)">
+                    <div class="offer_time" style="background: url({{ asset('') }}fronted/images/flash_sell_bg.jpg)">
                         <div class="wsus__flash_coundown">
                             <span class=" end_text">flash sell</span>
                             <div class="simply-countdown simply-countdown-one"></div>
@@ -243,8 +243,8 @@
                         <span class="wsus__new">New</span>
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/pro3.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/pro3_3.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/pro3.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/pro3_3.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -272,8 +272,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__new">New</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/pro4.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/pro4_4.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/pro4.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -301,8 +301,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/pro9.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/pro9_9.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -331,8 +331,8 @@
                         <span class="wsus__new">New</span>
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/pro2.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/pro2_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/pro2_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -360,8 +360,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/pro4.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/pro4_4.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/pro4.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -403,7 +403,7 @@
                 <div class="col-xl-12 col-lg-12">
                     <div class="wsus__monthly_top_banner">
                         <div class="wsus__monthly_top_banner_img">
-                            <img src="images/monthly_top_img3.jpg" alt="img" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/monthly_top_img3.jpg" alt="img" class="img-fluid w-100">
                             <span></span>
                         </div>
                         <div class="wsus__monthly_top_banner_text">
@@ -436,7 +436,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  elec cam wat">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro8_8.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro8_8.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>wemen's one pcs</h5>
@@ -454,7 +454,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  cloth spk">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's casual watch</h5>
@@ -472,7 +472,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  elec cam wat">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -490,7 +490,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  cloth spk">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -508,7 +508,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  elec cam">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro10.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro10.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>MSI gaming chair</h5>
@@ -526,7 +526,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  cloth cam wat">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro2.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's shoes</h5>
@@ -544,7 +544,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  elec spk">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro2.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's shoes</h5>
@@ -562,7 +562,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  cloth cam wat">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro10.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro10.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>MSI gaming chair</h5>
@@ -580,7 +580,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  elec cam wat">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro8_8.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro8_8.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>wemen's one pcs</h5>
@@ -598,7 +598,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  cloth spk">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's casual watch</h5>
@@ -616,7 +616,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  elec wat">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -634,7 +634,7 @@
                         <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3  cloth spk">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -668,37 +668,37 @@
                 <div class="row brand_slider">
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_1.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_1.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_5.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_5.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_6.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_6.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-xl-2">
                         <div class="wsus__brand_logo">
-                            <img src="images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -719,7 +719,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="wsus__single_banner_content">
                         <div class="wsus__single_banner_img">
-                            <img src="images/single_banner_7.jpg" alt="banner" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/single_banner_7.jpg" alt="banner" class="img-fluid w-100">
                         </div>
                         <div class="wsus__single_banner_text">
                             <h6>sell on <span>35% off</span></h6>
@@ -731,7 +731,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="wsus__single_banner_content single_banner_2">
                         <div class="wsus__single_banner_img">
-                            <img src="images/single_banner_8.jpg" alt="banner" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/single_banner_8.jpg" alt="banner" class="img-fluid w-100">
                         </div>
                         <div class="wsus__single_banner_text">
                             <h6>New Collection</h6>
@@ -764,7 +764,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="wsus__hot_deals_offer">
                         <div class="wsus__hot_deals_img">
-                            <img src="images/pro0010.jpg" alt="mobile" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/pro0010.jpg" alt="mobile" class="img-fluid w-100">
                         </div>
                         <div class="wsus__hot_deals_text">
                             <a class="wsus__hot_title" href="product_details.html">apple smart watch</a>
@@ -794,7 +794,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="wsus__hot_deals_offer">
                         <div class="wsus__hot_deals_img">
-                            <img src="images/pro0011.jpg" alt="mobile" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/pro0011.jpg" alt="mobile" class="img-fluid w-100">
                         </div>
                         <div class="wsus__hot_deals_text">
                             <a class="wsus__hot_title" href="product_details.html">portable mobile Speaker</a>
@@ -824,7 +824,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="wsus__hot_deals_offer">
                         <div class="wsus__hot_deals_img">
-                            <img src="images/pro0012.jpg" alt="mobile" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/pro0012.jpg" alt="mobile" class="img-fluid w-100">
                         </div>
                         <div class="wsus__hot_deals_text">
                             <a class="wsus__hot_title" href="product_details.html">apple smart watch</a>
@@ -854,7 +854,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="wsus__hot_deals_offer">
                         <div class="wsus__hot_deals_img">
-                            <img src="images/pro0013.jpg" alt="mobile" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/pro0013.jpg" alt="mobile" class="img-fluid w-100">
                         </div>
                         <div class="wsus__hot_deals_text">
                             <a class="wsus__hot_title" href="product_details.html">portable mobile Speaker</a>
@@ -903,8 +903,8 @@
                         <div class="wsus__product_item">
                             <span class="wsus__minus">-20%</span>
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/charger_2.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/charger_1.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/charger_2.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/charger_1.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -931,8 +931,8 @@
                     <div class="col-xl-3 col-sm-6 col-md-4 col-lg-4 eleca cama">
                         <div class="wsus__product_item">
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/headphone_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/headphone_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/headphone_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/headphone_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -959,8 +959,8 @@
                     <div class="col-xl-3 col-sm-6 col-md-4 col-lg-4 clotha spka cama wata">
                         <div class="wsus__product_item">
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/tab_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/tab_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/tab_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/tab_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -988,8 +988,8 @@
                         <div class="wsus__product_item">
                             <span class="wsus__minus">-20%</span>
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1018,8 +1018,8 @@
                             <span class="wsus__new">New</span>
                             <span class="wsus__minus">-20%</span>
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/charger_2.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/charger_1.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/charger_2.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/charger_1.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1046,8 +1046,8 @@
                     <div class="col-xl-3 col-sm-6 col-md-4 col-lg-4 eleca cama">
                         <div class="wsus__product_item">
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/headphone_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/headphone_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/headphone_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/headphone_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1074,8 +1074,8 @@
                     <div class="col-xl-3 col-sm-6 col-md-4 col-lg-4 clotha spka cama wata">
                         <div class="wsus__product_item">
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/tab_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/tab_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/tab_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/tab_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1104,8 +1104,8 @@
                             <span class="wsus__new">New</span>
                             <span class="wsus__minus">-20%</span>
                             <a class="wsus__pro_link" href="product_details.html">
-                                <img src="images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                                <img src="images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                                <img src="{{ asset('') }}fronted/images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                                <img src="{{ asset('') }}fronted/images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                             </a>
                             <ul class="wsus__single_pro_icon">
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1138,7 +1138,7 @@
                         <div class="col-xl-6 col-lg-6">
                             <div class="wsus__single_banner_content banner_1">
                                 <div class="wsus__single_banner_img">
-                                    <img src="images/single_banner_44.jpg" alt="banner" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/single_banner_44.jpg" alt="banner" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__single_banner_text">
                                     <h6>sell on <span>35% off</span></h6>
@@ -1152,7 +1152,7 @@
                                 <div class="col-12">
                                     <div class="wsus__single_banner_content single_banner_2">
                                         <div class="wsus__single_banner_img">
-                                            <img src="images/single_banner_55.jpg" alt="banner" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/single_banner_55.jpg" alt="banner" class="img-fluid w-100">
                                         </div>
                                         <div class="wsus__single_banner_text">
                                             <h6>New Collection</h6>
@@ -1164,7 +1164,7 @@
                                 <div class="col-12 mt-lg-4">
                                     <div class="wsus__single_banner_content">
                                         <div class="wsus__single_banner_img">
-                                            <img src="images/single_banner_66.jpg" alt="banner" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/single_banner_66.jpg" alt="banner" class="img-fluid w-100">
                                         </div>
                                         <div class="wsus__single_banner_text">
                                             <h6>sell on <span>42% off</span></h6>
@@ -1184,7 +1184,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's casual watch</h5>
@@ -1202,7 +1202,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's sholder bag</h5>
@@ -1220,7 +1220,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's sholder bag</h5>
@@ -1238,7 +1238,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro10.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro10.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>MSI gaming chair</h5>
@@ -1256,7 +1256,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro2.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's shoes</h5>
@@ -1274,7 +1274,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro2.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's shoes</h5>
@@ -1292,7 +1292,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro2.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's shoes</h5>
@@ -1310,7 +1310,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro2.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro2.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's shoes</h5>
@@ -1328,7 +1328,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro10.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro10.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>MSI gaming chair</h5>
@@ -1346,7 +1346,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's sholder bag</h5>
@@ -1364,7 +1364,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's sholder bag</h5>
@@ -1382,7 +1382,7 @@
                     <div class="col-xl-2 col-6 col-sm-6 col-md-4 col-lg-3">
                         <a class="wsus__hot_deals__single" href="#">
                             <div class="wsus__hot_deals__single_img">
-                                <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                             </div>
                             <div class="wsus__hot_deals__single_text">
                                 <h5>men's casual watch</h5>
@@ -1424,8 +1424,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__new">New</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/charger_2.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/charger_1.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/charger_2.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/charger_1.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1453,8 +1453,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/headphone_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/headphone_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/headphone_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/headphone_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1481,8 +1481,8 @@
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <div class="wsus__product_item">
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/tab_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/tab_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/tab_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/tab_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1509,8 +1509,8 @@
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <div class="wsus__product_item ">
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1539,8 +1539,8 @@
                         <span class="wsus__new">New</span>
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/mobile_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/mobile_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1591,8 +1591,8 @@
                         <span class="wsus__new">New</span>
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/pro8.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/pro8_8.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/pro8.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/pro8_8.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1620,8 +1620,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/kids_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/kids_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/kids_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/kids_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1649,8 +1649,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__new">New</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/blazer_1.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/blazer_2.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/blazer_1.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/blazer_2.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1678,8 +1678,8 @@
                     <div class="wsus__product_item">
                         <span class="wsus__minus">-20%</span>
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/wemans_2.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/wemans_1.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/wemans_2.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/wemans_1.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1708,8 +1708,8 @@
                         <span class="wsus__new">New</span>
 
                         <a class="wsus__pro_link" href="product_details.html">
-                            <img src="images/wemans_2.jpg" alt="product" class="img-fluid w-100 img_1" />
-                            <img src="images/wemans_1.jpg" alt="product" class="img-fluid w-100 img_2" />
+                            <img src="{{ asset('') }}fronted/images/wemans_2.jpg" alt="product" class="img-fluid w-100 img_1" />
+                            <img src="{{ asset('') }}fronted/images/wemans_1.jpg" alt="product" class="img-fluid w-100 img_2" />
                         </a>
                         <ul class="wsus__single_pro_icon">
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -1748,7 +1748,7 @@
         <div class="container">
             <div class="row">
                 <div class="cl-xl-12">
-                    <div class="wsus__large_banner_content" style="background: url(images/large_banner_img.jpg);">
+                    <div class="wsus__large_banner_content" style="background: url({{ asset('') }}fronted/images/large_banner_img.jpg);">
                         <div class="wsus__large_banner_content_overlay">
                             <div class="row">
                                 <div class="col-xl-6 col-12 col-md-6">
@@ -1794,7 +1794,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -1812,7 +1812,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's casual watch</h5>
@@ -1830,7 +1830,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro3.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro3.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>hp 24" FHD monitore</h5>
@@ -1848,7 +1848,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro10.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro10.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>MSI gaming chair</h5>
@@ -1866,7 +1866,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -1884,7 +1884,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's casual watch</h5>
@@ -1909,7 +1909,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -1927,7 +1927,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's casual watch</h5>
@@ -1945,7 +1945,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro3.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro3.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>hp 24" FHD monitore</h5>
@@ -1963,7 +1963,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro10.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro10.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>MSI gaming chair</h5>
@@ -1981,7 +1981,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro9_9.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's sholder bag</h5>
@@ -1999,7 +1999,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <a class="wsus__hot_deals__single" href="#">
                                 <div class="wsus__hot_deals__single_img">
-                                    <img src="images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/pro4_4.jpg" alt="bag" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__hot_deals__single_text">
                                     <h5>men's casual watch</h5>
@@ -2083,7 +2083,7 @@
                 <div class="col-xl-3">
                     <div class="wsus__single_blog wsus__single_blog_2">
                         <a class="wsus__blog_img" href="#">
-                            <img src="images/blog_1.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/blog_1.jpg" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="wsus__blog_text">
                             <a class="blog_top red" href="#">women's</a>
@@ -2097,7 +2097,7 @@
                 <div class="col-xl-3">
                     <div class="wsus__single_blog wsus__single_blog_2">
                         <a class="wsus__blog_img" href="#">
-                            <img src="images/blog_2.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/blog_2.jpg" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="wsus__blog_text">
                             <a class="blog_top blue" href="#">lifestyle</a>
@@ -2111,7 +2111,7 @@
                 <div class="col-xl-3">
                     <div class="wsus__single_blog wsus__single_blog_2">
                         <a class="wsus__blog_img" href="#">
-                            <img src="images/blog_3.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/blog_3.jpg" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="wsus__blog_text">
                             <a class="blog_top orange" href="#">lifestyle</a>
@@ -2125,7 +2125,7 @@
                 <div class="col-xl-3">
                     <div class="wsus__single_blog wsus__single_blog_2">
                         <a class="wsus__blog_img" href="#">
-                            <img src="images/blog_4.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/blog_4.jpg" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="wsus__blog_text">
                             <a class="blog_top orange" href="#">fashion</a>
@@ -2139,7 +2139,7 @@
                 <div class="col-xl-3">
                     <div class="wsus__single_blog wsus__single_blog_2">
                         <a class="wsus__blog_img" href="#">
-                            <img src="images/blog_5.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/blog_5.jpg" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="wsus__blog_text">
                             <a class="blog_top red" href="#">lifestyle</a>

@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontedControllers;
 use App\Http\Controllers\BackendController;
+use App\Http\Controllers\Frontend\UserDashboardController;
 
 
 /*
@@ -45,9 +46,7 @@ Route::post('/change_lang',[BackendController::class,'change_lang']);
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -68,3 +67,8 @@ Route::fallback(function () {
 
 Route::get('admin/login',[BackendController::class,'login'])->name('admin.login');
 
+
+Route::group(['middleware' =>['auth', 'verified'], 'prefix' => 'user', 'as' => 'user.' ], function(){
+
+    Route::get('dashboard', [UserDashboardController::class, 'index'])->name('dashboard');
+});
