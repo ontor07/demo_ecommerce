@@ -31,92 +31,92 @@
             <div class="row">
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_1.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_1.jpg" alt="brand" class="img-fluid w-100">
                         <span class="new">new</span>
                         <span class="rating">5 <i class="fas fa-star"></i></span>
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
                         <span class="new">new</span>
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_5.jpg" alt="brand" class="img-fluid w-100">
-                        <span class="new">new</span>
-                        <span class="rating">5 <i class="fas fa-star"></i></span>
-                    </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4">
-                    <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_6.jpg" alt="brand" class="img-fluid w-100">
-                    </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4">
-                    <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_7.jpg" alt="brand" class="img-fluid w-100">
-                        <span class="rating">5 <i class="fas fa-star"></i></span>
-                    </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4">
-                    <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_1.jpg" alt="brand" class="img-fluid w-100">
-                    </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4">
-                    <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
-                    </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4">
-                    <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_5.jpg" alt="brand" class="img-fluid w-100">
                         <span class="new">new</span>
                         <span class="rating">5 <i class="fas fa-star"></i></span>
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_6.jpg" alt="brand" class="img-fluid w-100">
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_7.jpg" alt="brand" class="img-fluid w-100">
+                        <span class="rating">5 <i class="fas fa-star"></i></span>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <a href="product_grid_view.html" class="wsus__single_brand">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_1.jpg" alt="brand" class="img-fluid w-100">
+                    </a>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <a href="product_grid_view.html" class="wsus__single_brand">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
+                    </a>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <a href="product_grid_view.html" class="wsus__single_brand">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                        <span class="new">new</span>
+                        <span class="rating">5 <i class="fas fa-star"></i></span>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <a href="product_grid_view.html" class="wsus__single_brand">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
+                    </a>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <a href="product_grid_view.html" class="wsus__single_brand">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_2.jpg" alt="brand" class="img-fluid w-100">
                         <span class="new">new</span>
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_3.jpg" alt="brand" class="img-fluid w-100">
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_4.jpg" alt="brand" class="img-fluid w-100">
                         <span class="new">new</span>
                     </a>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-4">
                     <a href="product_grid_view.html" class="wsus__single_brand">
-                        <img src="images/brand_logo_7.jpg" alt="brand" class="img-fluid w-100">
+                        <img src="{{ asset('') }}fronted/images/brand_logo_7.jpg" alt="brand" class="img-fluid w-100">
                         <span class="rating">5 <i class="fas fa-star"></i></span>
                     </a>
                 </div>

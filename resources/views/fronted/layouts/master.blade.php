@@ -24,7 +24,7 @@
                 <div class="col-xl-2 col-7 col-md-8 col-lg-2">
                     <div class="wsus_logo_area">
                         <a class="wsus__header_logo" href="/">
-                            <img src="images/logo_2.png" alt="logo" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/logo_2.png" alt="logo" class="img-fluid w-100">
                         </a>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
             <ul>
                 <li>
                     <div class="wsus__cart_img">
-                        <a href="#"><img src="images/tab_2.jpg" alt="product" class="img-fluid w-100"></a>
+                        <a href="#"><img src="{{ asset('') }}fronted/images/tab_2.jpg" alt="product" class="img-fluid w-100"></a>
                         <a class="wsis__del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
                     </div>
                     <div class="wsus__cart_text">
@@ -81,7 +81,7 @@
                 </li>
                 <li>
                     <div class="wsus__cart_img">
-                        <a href="#"><img src="images/pro4.jpg" alt="product" class="img-fluid w-100"></a>
+                        <a href="#"><img src="{{ asset('') }}fronted/images/pro4.jpg" alt="product" class="img-fluid w-100"></a>
                         <a class="wsis__del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
                     </div>
                     <div class="wsus__cart_text">
@@ -91,7 +91,7 @@
                 </li>
                 <li>
                     <div class="wsus__cart_img">
-                        <a href="#"><img src="images/pro2.jpg" alt="product" class="img-fluid w-100"></a>
+                        <a href="#"><img src="{{ asset('') }}fronted/images/pro2.jpg" alt="product" class="img-fluid w-100"></a>
                         <a class="wsis__del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
                     </div>
                     <div class="wsus__cart_text">
@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <div class="wsus__cart_img">
-                        <a href="#"><img src="images/pro9.jpg" alt="product" class="img-fluid w-100"></a>
+                        <a href="#"><img src="{{ asset('') }}fronted/images/pro9.jpg" alt="product" class="img-fluid w-100"></a>
                         <a class="wsis__del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
                     </div>
                     <div class="wsus__cart_text">
@@ -111,7 +111,7 @@
                 </li>
                 <li>
                     <div class="wsus__cart_img">
-                        <a href="#"><img src="images/tab_2.jpg" alt="product" class="img-fluid w-100"></a>
+                        <a href="#"><img src="{{ asset('') }}fronted/images/tab_2.jpg" alt="product" class="img-fluid w-100"></a>
                         <a class="wsis__del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
                     </div>
                     <div class="wsus__cart_text">
@@ -629,7 +629,7 @@
                 <div class="col-xl-3 col-sm-7 col-md-6 col-lg-3">
                     <div class="wsus__footer_content">
                         <a class="wsus__footer_2_logo" href="#">
-                            <img src="images/logo_2.png" alt="logo">
+                            <img src="{{ asset('') }}fronted/images/logo_2.png" alt="logo">
                         </a>
                         <a class="action" href="callto:+8896254857456"><i class="fas fa-phone-alt"></i>
                             +8896254857456</a>
@@ -684,7 +684,7 @@
                         </form>
                         <div class="footer_payment">
                             <p>We're using safe payment for :</p>
-                            <img src="images/credit2.png" alt="card" class="img-fluid">
+                            <img src="{{ asset('') }}fronted/images/credit2.png" alt="card" class="img-fluid">
                         </div>
                     </div>
                 </div>

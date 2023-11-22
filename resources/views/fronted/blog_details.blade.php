@@ -32,7 +32,7 @@
                 <div class="col-xxl-9 col-xl-8 col-lg-8">
                     <div class="wsus__main_blog">
                         <div class="wsus__main_blog_img">
-                            <img src="images/blog_details.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('') }}fronted/images/blog_details.jpg" alt="blog" class="img-fluid w-100">
                         </div>
                         <p class="wsus__main_blog_header">
                             <span><i class="fas fa-user-tie"></i> by dabasis</span>
@@ -104,7 +104,7 @@
                                 <div class="col-xl-3">
                                     <div class="wsus__single_blog wsus__single_blog_2">
                                         <a class="wsus__blog_img" href="#">
-                                            <img src="images/blog_1.jpg" alt="blog" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/blog_1.jpg" alt="blog" class="img-fluid w-100">
                                         </a>
                                         <div class="wsus__blog_text">
                                             <a class="blog_top red" href="#">women's</a>
@@ -119,7 +119,7 @@
                                 <div class="col-xl-3">
                                     <div class="wsus__single_blog wsus__single_blog_2">
                                         <a class="wsus__blog_img" href="#">
-                                            <img src="images/blog_2.jpg" alt="blog" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/blog_2.jpg" alt="blog" class="img-fluid w-100">
                                         </a>
                                         <div class="wsus__blog_text">
                                             <a class="blog_top blue" href="#">lifestyle</a>
@@ -133,7 +133,7 @@
                                 <div class="col-xl-3">
                                     <div class="wsus__single_blog wsus__single_blog_2">
                                         <a class="wsus__blog_img" href="#">
-                                            <img src="images/blog_3.jpg" alt="blog" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/blog_3.jpg" alt="blog" class="img-fluid w-100">
                                         </a>
                                         <div class="wsus__blog_text">
                                             <a class="blog_top orange" href="#">lifestyle</a>
@@ -147,7 +147,7 @@
                                 <div class="col-xl-3">
                                     <div class="wsus__single_blog wsus__single_blog_2">
                                         <a class="wsus__blog_img" href="#">
-                                            <img src="images/blog_4.jpg" alt="blog" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/blog_4.jpg" alt="blog" class="img-fluid w-100">
                                         </a>
                                         <div class="wsus__blog_text">
                                             <a class="blog_top orange" href="#">fashion</a>
@@ -161,7 +161,7 @@
                                 <div class="col-xl-3">
                                     <div class="wsus__single_blog wsus__single_blog_2">
                                         <a class="wsus__blog_img" href="#">
-                                            <img src="images/blog_5.jpg" alt="blog" class="img-fluid w-100">
+                                            <img src="{{ asset('') }}fronted/images/blog_5.jpg" alt="blog" class="img-fluid w-100">
                                         </a>
                                         <div class="wsus__blog_text">
                                             <a class="blog_top red" href="#">lifestyle</a>
@@ -178,7 +178,7 @@
                             <h4>comment <span>03</span></h4>
                             <div class="wsus__main_comment">
                                 <div class="wsus__comment_img">
-                                    <img src="images/client_img_1.jpg" alt="user" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/client_img_1.jpg" alt="user" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__comment_text replay">
                                     <h6>Shopnil mahadi <span>09 Jul 2021</span></h6>
@@ -208,7 +208,7 @@
                             </div>
                             <div class="wsus__main_comment wsus__com_replay">
                                 <div class="wsus__comment_img">
-                                    <img src="images/client_img_3.jpg" alt="user" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/client_img_3.jpg" alt="user" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__comment_text replay">
                                     <h6>Smith jhon <span>09 Jul 2021</span></h6>
@@ -238,7 +238,7 @@
                             </div>
                             <div class="wsus__main_comment">
                                 <div class="wsus__comment_img">
-                                    <img src="images/client_img_1.jpg" alt="user" class="img-fluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/client_img_1.jpg" alt="user" class="img-fluid w-100">
                                 </div>
                                 <div class="wsus__comment_text replay">
                                     <h6>Smith jhon <span>09 Jul 2021</span></h6>
@@ -337,7 +337,7 @@
                             <h4>Popular Post</h4>
                             <div class="wsus__blog_post_single">
                                 <a href="#" class="wsus__blog_post_img">
-                                    <img src="images/location_1.jpg" alt="blog" class="imgofluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/location_1.jpg" alt="blog" class="imgofluid w-100">
                                 </a>
                                 <div class="wsus__blog_post_text">
                                     <a href="#">One Thing Separates Creators</a>
@@ -346,7 +346,7 @@
                             </div>
                             <div class="wsus__blog_post_single">
                                 <a href="#" class="wsus__blog_post_img">
-                                    <img src="images/location_2.jpg" alt="blog" class="imgofluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/location_2.jpg" alt="blog" class="imgofluid w-100">
                                 </a>
                                 <div class="wsus__blog_post_text">
                                     <a href="#">One Thing Separates Creators</a>
@@ -355,7 +355,7 @@
                             </div>
                             <div class="wsus__blog_post_single">
                                 <a href="#" class="wsus__blog_post_img">
-                                    <img src="images/location_3.jpg" alt="blog" class="imgofluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/location_3.jpg" alt="blog" class="imgofluid w-100">
                                 </a>
                                 <div class="wsus__blog_post_text">
                                     <a href="#">One Thing Separates Creators</a>
@@ -364,7 +364,7 @@
                             </div>
                             <div class="wsus__blog_post_single">
                                 <a href="#" class="wsus__blog_post_img">
-                                    <img src="images/location_4.jpg" alt="blog" class="imgofluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/location_4.jpg" alt="blog" class="imgofluid w-100">
                                 </a>
                                 <div class="wsus__blog_post_text">
                                     <a href="#">One Thing Separates Creators</a>
@@ -373,7 +373,7 @@
                             </div>
                             <div class="wsus__blog_post_single">
                                 <a href="#" class="wsus__blog_post_img">
-                                    <img src="images/location_2.jpg" alt="blog" class="imgofluid w-100">
+                                    <img src="{{ asset('') }}fronted/images/location_2.jpg" alt="blog" class="imgofluid w-100">
                                 </a>
                                 <div class="wsus__blog_post_text">
                                     <a href="#">One Thing Separates Creators</a>

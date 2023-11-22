@@ -39,13 +39,13 @@
                                         <td class="wsus__compare_img">
                                             <p>Product details</p>
                                         </td>
-                                        <td class="wsus__compare_img"><img src="images/blazer_2.jpg" alt="product"
+                                        <td class="wsus__compare_img"><img src="{{ asset('') }}fronted/images/blazer_2.jpg" alt="product"
                                                 class="img-fluid w-100">
                                         </td>
-                                        <td class="wsus__compare_img"><img src="images/headphone_1.jpg" alt="product"
+                                        <td class="wsus__compare_img"><img src="{{ asset('') }}fronted/images/headphone_1.jpg" alt="product"
                                                 class="img-fluid w-100">
                                         </td>
-                                        <td class="wsus__compare_img"><img src="images/kids_1.jpg" alt="product"
+                                        <td class="wsus__compare_img"><img src="{{ asset('') }}fronted/images/kids_1.jpg" alt="product"
                                                 class="img-fluid w-100">
                                         </td>
                                     </tr>
