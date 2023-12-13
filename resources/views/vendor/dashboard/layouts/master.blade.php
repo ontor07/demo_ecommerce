@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/style.css">
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/responsive.css">
   <!-- <link rel="stylesheet" href="css/rtl.css"> -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
   <style>
     .dashboard_sidebar {
@@ -116,6 +117,27 @@
 
   <!--main/custom js-->
   <script src="{{ asset('') }}fronted/js/main.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <script>
+    @if ($errors->any())
+           @foreach ($errors->all() as $error )
+           toastr.error("{{ $error }}")
+           
+           @endforeach
+         @endif
+ </script>
+
+<script>
+ imageFile.onchange = evt => {
+     const [file] = imageFile.files
+     if (file) {
+         blah.src = URL.createObjectURL(file)
+     }
+     }
+</script>
+
 </body>
 
 </html>
