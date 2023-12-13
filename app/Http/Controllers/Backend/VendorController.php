@@ -11,4 +11,8 @@ class VendorController extends Controller
     {
         return view ('vendor.dashboard.dashboard');
     }
+    public function profile()
+    {
+        return view ('vendor.dashboard.profile');
+    }
 }

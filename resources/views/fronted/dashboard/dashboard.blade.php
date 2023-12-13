@@ -1,8 +1,5 @@
 @extends('fronted.dashboard.layouts.master')
 @section('content')
-
-    <div class="container-fluid">
-     @include('fronted.dashboard.layouts.sidebar')
       <div class="row">
         <div class="col-xl-9 col-xxl-10 col-lg-9 ms-auto">
           <div class="dashboard_content">
@@ -146,7 +143,7 @@
           </div>
         </div>
       </div>
-    </div>
+   
  
   <!--=============================
     DASHBOARD START
