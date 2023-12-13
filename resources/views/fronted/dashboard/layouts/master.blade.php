@@ -21,10 +21,11 @@
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/ranger_style.css">
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/jquery.classycountdown.css">
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/venobox.min.css">
-
+  
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/style.css">
   <link rel="stylesheet" href="{{ asset('') }}fronted/css/responsive.css">
   <!-- <link rel="stylesheet" href="css/rtl.css"> -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 
 <body>
@@ -48,7 +49,10 @@
     DASHBOARD START
   ==============================-->
     <section id="wsus__dashboard">
+      <div class="container-fluid">
+      @include('fronted.dashboard.layouts.sidebar')
         @yield('content')
+      </div>
     </section>
 <!--=============================
     DASHBOARD END
@@ -103,6 +107,25 @@
 
   <!--main/custom js-->
   <script src="{{ asset('') }}fronted/js/main.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <script>
+    @if ($errors->any())
+           @foreach ($errors->all() as $error )
+           toastr.error("{{ $error }}")
+           
+           @endforeach
+         @endif
+ </script>
+
+<script>
+ imageFile.onchange = evt => {
+     const [file] = imageFile.files
+     if (file) {
+         blah.src = URL.createObjectURL(file)
+     }
+     }
+</script>
 </body>
 
 </html>
