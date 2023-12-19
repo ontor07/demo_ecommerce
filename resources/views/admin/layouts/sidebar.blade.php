@@ -12,17 +12,34 @@
 
           @if($m->type == 1)
           <li class="dropdown">
-            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Menu Mangement</span></a>
+            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="{{ $m->icon }}"></i> <span>{{ $m->menu_name_en }}</span></a>
             <ul class="dropdown-menu">
-              <li><a class="nav-link" href="layout-default.html">Default Layout</a></li>
-              <li><a class="nav-link" href="layout-transparent.html">Transparent Sidebar</a></li>
-              <li><a class="nav-link" href="layout-top-navigation.html">Top Navigation</a></li>
+              
+              @php
+                $module = DB::table('menus')->where('parent_id','!=',0)->where('type',2)->get();
+              @endphp
+             
+              @foreach ($module as $sm )
+              @if($m->id == $sm->parent_id)
+              <li>
+                <a class="nav-link" href="{{ url('admin')}}/{{ $sm->route_name }} ">
+                  {{ $sm->menu_name_en  }}</a>
+              </li>
+              @endif
+              @endforeach
+            
+           
+             
             </ul>
           </li> 
           @else
-          <li>
-            <a class="nav-link" href="{{ url('admin')}}/{{ $m->route_name }}"><i class="{{ $m->icon }}"></i> <span>{{ $m->menu_name_en }}</span></a>
-          </li>
+            @if($m->parent_id == 0)
+            <li>
+              <a class="nav-link" href="{{ url('admin')}}/{{ $m->route_name }}"><i class="{{ $m->icon }}"></i> <span>{{ $m->menu_name_en }}</span></a>
+            </li>
+            @endif
+
+
           @endif
 
         @endforeach
