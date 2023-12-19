@@ -4,6 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+
 return new class extends Migration
 {
     /**
@@ -20,6 +21,7 @@ return new class extends Migration
             $table->integer('order_by')->nullable();
             $table->string('route_name')->nullable();
             $table->integer('type')->nullable()->comment('1= parent, 2= module ');
+            $table->integer('status')->nullable()->comment('1= Active, 0= Inactive ');
             $table->date('deleted_at')->nullable();
             $table->timestamps();
         });

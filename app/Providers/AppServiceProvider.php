@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         View::composer('*',function($view){
-            $view->with('menu',menu::orderby('order_by','ASC')->get());
+            $view->with('menu',menu::orderby('order_by','ASC')->where('status',1)->get());
         });
     }
 }

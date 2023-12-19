@@ -8,5 +8,5 @@
     </nav>
 </div>
 <div class="section-header-breadcrumb">
-   <a class="btn btn-primary"  href="{{ $btn_link }}"><i class="fas fa-eye" s></i>  {{ $btn_name }}</a>
+   <a class="btn btn-primary"  href="{{ $btn_link }}"><i class="{{ $btn_icon }}"></i>  {{ $btn_name }}</a>
   </div>
