@@ -3,6 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\ProfileController;
 use App\Http\Controllers\Backend\menuController;
+use App\Http\Controllers\Backend\SliderController;
 
 Route::get('dashboard',[AdminController::class, 'dashboard'])->name('dashboard');
 
@@ -12,6 +13,7 @@ Route::post('profile/update',[ProfileController::class, 'profileUpdate'])->name(
 Route::post('profile/updatepassword',[ProfileController::class, 'updatePassword'])->name('password.update');
 
 Route::resources([
-    'menu'=> menuController::class
+    'menu'=> menuController::class,
+    'slider'=> SliderController::class
 ]);
 
