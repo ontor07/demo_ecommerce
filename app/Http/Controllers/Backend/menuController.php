@@ -34,6 +34,10 @@ class menuController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'menu_name_en' => ['required','max:200'],
+            'order_by' => ['required',],
+        ]);
         // dd($request->all());
         $data = array(
 
