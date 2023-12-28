@@ -5,10 +5,10 @@
       <div class="section-header">
         @component('components.beardcrumb')
           @slot('page_index')
-          Menu
+          Slider
           @endslot
           @slot('page_link')
-          {{ route('admin.menu.create') }}
+          {{ route('admin.slider.index') }}
           @endslot
 
           @slot('btn_name')

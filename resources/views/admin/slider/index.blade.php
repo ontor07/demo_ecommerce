@@ -45,7 +45,7 @@
                         <div class="tab-pane fade show active" id="home3" role="tabpanel" aria-labelledby="home-tab3">
                             <div class="card-body">
 
-                              {{-- {{ $dataTable->table() }} --}}
+                              {{ $dataTable->table() }}
                            
                             </div>
                                                                                                 
@@ -140,7 +140,7 @@
     </section>
  
  @endsection
-{{-- 
+
  @push('scripts')
  {{ $dataTable->scripts(attributes: ['type' => 'module']) }}
-@endpush --}}
+@endpush
